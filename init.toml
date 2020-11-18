@@ -9,7 +9,7 @@
 # All SpaceVim option below [option] section
 [options]
     filemanager = "nerdtree"
-    sidebar_direction = 'right'
+    sidebar_direction = 'left'
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
@@ -56,6 +56,9 @@ name = "lang#python"
 
 [[layers]]
 name = "lang#ruby"
+
+[[layers]]
+name = "lang#elixir"
 
 [[layers]]
 name = "fzf"
