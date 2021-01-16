@@ -27,4 +27,5 @@ endif
 
 set mouse=a
 let g:NERDTreeMouseMode=3
+let g:NERDTreeWinPos = "left"
 " vim:set et sw=2
