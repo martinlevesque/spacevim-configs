@@ -8,7 +8,7 @@
 
 # All SpaceVim option below [option] section
 [options]
-    autocomplete_method = "neocomplcache"
+    autocomplete_method = "ycm"
     filemanager = "nerdtree"
     sidebar_direction = 'left'
     # set spacevim theme. by default colorscheme layer is not loaded,
