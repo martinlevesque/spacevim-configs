@@ -8,6 +8,7 @@
 
 # All SpaceVim option below [option] section
 [options]
+    autocomplete_method = "neocomplcache"
     filemanager = "nerdtree"
     sidebar_direction = 'left'
     # set spacevim theme. by default colorscheme layer is not loaded,
@@ -44,7 +45,7 @@ name = "shell"
 [[layers]]
 name = 'autocomplete'
 auto_completion_return_key_behavior = "complete"
-auto_completion_tab_key_behavior = "cycle"
+auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
 name = 'shell'
