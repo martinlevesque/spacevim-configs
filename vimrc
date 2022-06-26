@@ -31,6 +31,8 @@ endif
 " clipboard
 " install vim-gui-common
 
+" file
+
 set colorcolumn=90
 
 " NERD TREE 
@@ -55,6 +57,13 @@ let g:minimap_auto_start_win_enter = 1
 let g:minimap_highlight_range = 1
 let g:minimap_highlight_search = 1
 let g:minimap_git_colors = 1
+
+" various operations
+
+" ctrl+s:
+
+nmap <c-s> :w<CR>
+imap <c-s> <Esc>:w<CR>a
 
 " vim:set et sw=2
 "
