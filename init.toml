@@ -27,6 +27,8 @@
     sidebar_direction = 'left'
     vimcompatible = true
 
+    autocomplete_method = "ycm"
+
 [[layers]]
 name = 'core'
 filetree_show_hidden = true
@@ -58,6 +60,3 @@ name = "lang#markdown"
 
 [[layers]]
 name = 'fzf'
-
-
-
