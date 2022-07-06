@@ -6,8 +6,6 @@
 " License: GPLv3
 "=============================================================================
 
-
-
 " Note: Skip initialization for vim-tiny or vim-small.
 if 1
     let g:_spacevim_if_lua = 0
@@ -27,6 +25,7 @@ if 1
     endif
     execute 'source' fnamemodify(expand('<sfile>'), ':h').'/main.vim'
 endif
+" vim:set et sw=2
 
 " clipboard
 " install vim-gui-common
@@ -35,7 +34,7 @@ endif
 
 set colorcolumn=90
 
-" NERD TREE 
+" NERD TREE
 set mouse=a
 
 let g:NERDTreeMouseMode=3
@@ -51,6 +50,10 @@ call plug#end()
 " $ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 " then see:
 " https://github.com/wfxr/minimap.vim
+" Run in vim:
+" :PlugStatus
+"
+
 let g:minimap_width = 10
 let g:minimap_auto_start = 1
 let g:minimap_auto_start_win_enter = 1
@@ -71,3 +74,4 @@ imap <c-s> <Esc>:w<CR>a
 " Default to static completion for SQL
 let g:omni_sql_default_compl_type = 'syntax'
 let g:ftplugin_sql_omni_key       = ''
+let g:omni_sql_no_default_maps = 1
