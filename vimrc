@@ -68,6 +68,10 @@ let g:minimap_git_colors = 1
 nmap <c-s> :w<CR>
 imap <c-s> <Esc>:w<CR>a
 
+" ctrl+c:
+
+vmap <C-c> "+y
+
 " vim:set et sw=2
 "
 
